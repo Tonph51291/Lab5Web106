@@ -1,0 +1,47 @@
+.khung {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+* {
+  color: white;
+}
+
+.dong1 {
+  max-width: 100%;
+  height: 60px;
+  font-size: 20px;
+  background-color: #4caf50;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.dong2 {
+  margin: 0px auto;
+  max-width: 70%;
+  background-color: #ff9800;
+
+  padding: 10px;
+  text-align: justify;
+}
+.dong3 {
+  max-width: 100%;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 10px;
+  justify-content: center;
+  background-color: #da952d;
+  text-align: center;
+  padding: 10px;
+}
+@media screen and (max-width: 768px) {
+  .dong1 {
+    width: 100%;
+    text-align: center;
+  }
+  .dong2 {
+    width: 90%;
+  }
+  .dong3 {
+    width: 100%;
+    text-align: left;
+  }
+}
